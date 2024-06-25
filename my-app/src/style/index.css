@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  @font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto/Roboto-Regular.ttf') format('truetype'),
+    url('./fonts/Roboto/Roboto-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+    h1, h2, h3, p, label, a {
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 23.44px;
+        color: #151317;
+    }
