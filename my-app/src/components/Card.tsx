@@ -1,11 +1,11 @@
 import React from 'react'
 
-function partner() {
+function Card() {
     return (
         <div>
-            <p>Partner</p>
+            
         </div>
     )
 }
 
-export default partner
+export default Card

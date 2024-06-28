@@ -1,0 +1,90 @@
+.cards {
+    max-width: 1440px;
+}
+.cards-button {
+    height: 40px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #151317;
+    background-color: #FFFFFF;
+    margin-top: 56px;
+    cursor: pointer;
+}
+.header h1{
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 75px;
+    color: #FFFFFF;
+}
+.header {
+    padding: 32px 0;
+    max-width: 1440px;
+    height: 265px;
+    background: #512689;
+    
+}
+.header h2 {
+    max-width: 846px;
+    height: 46px;
+    color: #F8F8F8;
+}
+.header-button {
+    padding: 0 80px;
+    text-align: end;
+}
+.header-button button {
+    padding: 8px 16px;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid #F8F8F8;
+    background-color: #512689;
+    color: #F8F8F8;
+    cursor: pointer;
+}
+.header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .linck-register {
+        background-color: #F8F8F8;
+        z-index: 10; 
+        padding: 10px;
+        border: 1px solid #FFFFFF;
+        border-radius: 8px;
+    }
+    .overlay a {
+        text-decoration: none;
+        color: #151317; 
+        transition: color 0.3s ease-in-out, font-weight 0.3s ease-in-out; 
+    }
+        
+    .overlay a:hover {
+        color: #512689; 
+        font-weight: bold;
+    }
+    @media (max-width: 668px) {
+        .header h1{
+            font-size: 36px;
+            line-height: 42.19px;
+        }
+        .header h2 {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 18.75px;
+        }
+    }

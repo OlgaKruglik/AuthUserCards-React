@@ -1,0 +1,104 @@
+.SingUp {
+    width: 100%;
+    height: 100%;
+    margin-top: 253px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-style {
+    height: 519px;
+    justify-content: center;
+    display: flex;
+    border-radius: 16px;
+    box-shadow: 0px 4px 20px 0px #00000014;
+    padding: 16px;
+}
+.SingUp p {
+    font-size: 16px;
+    line-height: 21.79px;
+    text-align: left;
+}
+form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    height: 415px;
+    gap: 16px;
+    text-align: left;
+    background-color: #fff;
+}
+.form-button{
+    width: 100%;
+    padding: 13px 0;
+    margin-top: 16px;
+    border-radius: 8px;
+    background: #512689;
+    color: #fff;
+    font-size: 16px;
+    line-height: 21.79px;
+    cursor: pointer;
+}
+.form-registr {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.form-registr input {
+    height: 48px;
+    padding: 16px 8px 16px 16px;
+    border: 8px solid #F8F8F8;
+    border-radius: 8px; 
+    background: #F8F8F8;
+    line-height: 16.41px;
+    text-align: left;
+}
+.form-registr-password {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    border: 8px solid #F8F8F8;
+    border-radius: 8px; 
+    background: #F8F8F8;
+}
+.form-registr-password input {
+    background: #F8F8F8;
+    width: 100%;
+}
+.form-registr-password button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    background: #F8F8F8;
+    /* width: 50px;
+    height: 24px; */
+    border: none; 
+    cursor: pointer;
+}
+.icon-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  #F8F8F8;
+}
+.error-input {
+    border: 1px solid red; 
+    }
+    
+    .error-text {
+    color: red; 
+    font-size: 12px; 
+    margin-top: 5px;
+    }
+    @media (max-width: 668px) {
+        .form-style {
+            width: 375px;
+            height: 519px;
+        }
+        .SingUp p {
+            font-size: 16px;
+            line-height: 21.79px;
+            text-align: left;
+        }
+    }
