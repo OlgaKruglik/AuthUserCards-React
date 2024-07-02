@@ -79,6 +79,7 @@ export const signUp = async (email, password) => {
         const usersSnapshot = await getDocs(usersCol);
         const usersList = usersSnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
         console.log(usersList);
+        console.log(usersList);
         return usersList;
       } catch (error) {
         console.error('Ошибка при получении данных:', error);

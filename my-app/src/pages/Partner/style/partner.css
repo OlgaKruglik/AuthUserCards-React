@@ -17,6 +17,7 @@
     color: #FFFFFF;
 }
 .header {
+    margin: auto;
     padding: 32px 0;
     max-width: 1440px;
     height: 265px;
@@ -76,6 +77,17 @@
     .overlay a:hover {
         color: #512689; 
         font-weight: bold;
+    }
+    .card-base {
+        gap: 16px;
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+        margin: auto;
+    }
+    .cardsButton {
+        margin-top: 0;
     }
     @media (max-width: 668px) {
         .header h1{
