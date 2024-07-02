@@ -9,13 +9,9 @@ import './style/index.css'
 
 function UserWrapper() {
   const { id } = useParams();
-  // Проверяем, определён ли id
   if (typeof id === 'undefined') {
-  // Обрабатываем случай, когда id не определён
-  // Например, можно вернуть компонент с сообщением об ошибке
   return <div>Идентификатор пользователя не найден</div>;
   }
-  // Если id определён, передаём его в компонент User
   return <User cardId={id} />;
   }
 

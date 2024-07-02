@@ -1,0 +1,91 @@
+.header-user {
+    padding: 32px 80px 0 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.header-user-name {
+    width: 100%;
+    display: flex;
+    gap: 32px;
+    height: 187px;
+    align-items: end;
+    margin-bottom: 39px;
+}
+.info-user {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.info-user h2 {
+    font-size: 32px;
+    line-height: 37.5px;
+    text-align: left;
+}
+.about {
+    display: flex;
+    justify-content: center;
+    margin-top: 49px;
+    gap: 120px;
+}
+.about p {
+    font-size: 16px;
+    line-height: 21.79px;
+    text-align: left;
+}
+.card-about {
+    width: 44%;
+}
+.header-button a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 21.79px;
+    text-align: left;
+    color: #fff;
+}
+.card-email-tel  {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.header-button img {
+    display: none; 
+}
+
+@media (max-width: 768px) {
+    .header {
+       padding: 10px;
+    }
+    .header-button {
+        padding: 0;
+    }
+    .header-user-name {
+        display: block;
+        height: auto;
+    }
+    .header h2 {
+        font-size: 20px;
+        line-height: 23.44px;
+        text-align: center;
+    }
+    .about {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin-top: 49px;
+        align-items: center;
+        gap: 40px
+    }
+    .about p {
+        font-size: 16px;
+        line-height: 21.79px;
+        text-align: left;
+    }
+    .header-button-link {
+        display: none;
+    }
+    .header-button img {
+        display: block; 
+        cursor: pointer;
+    }
+}
