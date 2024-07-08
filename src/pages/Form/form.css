@@ -43,9 +43,11 @@ form {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    width: 100%;
 }
 .form-registr input {
     height: 48px;
+    width: 100%;
     padding: 16px 8px 16px 16px;
     border: 8px solid #F8F8F8;
     border-radius: 8px; 
@@ -55,6 +57,7 @@ form {
 }
 .form-registr-password {
     display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     height: 48px;
